@@ -1,0 +1,85 @@
+[
+  {
+    "outputFileName": "wwwroot/css/site.min.css",
+    "inputFiles": [
+      "https://fonts.googleapis.com/css?family=Lato:300,400,700,900",
+      "wwwroot/css/fontawesome.css",
+      "wwwroot/css/slick.css",
+      "wwwroot/css/slick-theme.css",
+      "wwwroot/css/animate.css",
+      "wwwroot/css/themify-icons.css",
+      "wwwroot/css/bootstrap.css",
+      "wwwroot/css/color7.css"
+
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/site.min.js",
+    "inputFiles": [
+      "wwwroot/js/jquery-3.3.1.min.js",
+      "wwwroot/js/menu.js",
+      "wwwroot/js/lazysizes.min.js",
+      "wwwroot/js/popper.min.js",
+      "wwwroot/js/slick.js",
+      "wwwroot/js/bootstrap.js",
+      "wwwroot/js/bootstrap-notify.min.js",
+      "wwwroot/js/script.js"
+
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/css/siteAdmin.min.css",
+    "inputFiles": [
+      "https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900",
+      "https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i",
+      "wwwroot/css/fontawesome.css",
+      "wwwroot/css/flag-icon.css",
+      "wwwroot/css/icofont.css",
+      "wwwroot/css/prism.css",
+      "wwwroot/css/chartist.css",
+      "wwwroot/css/bootstrap.css",
+      "wwwroot/css/admin.css"
+
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/siteAdmin.min.js",
+    "inputFiles": [
+      "wwwroot/js/jquery-3.3.1.min.js",
+      "wwwroot/js/popper.min.js",
+      "wwwroot/js/bootstrap.js",
+      "wwwroot/js/icons/feather-icon/feather.min.js",
+      "wwwroot/js/icons/feather-icon/feather-icon.js",
+      "wwwroot/js/sidebar-menu.js",
+      "wwwroot/js/chart/chartist/chartist.js",
+      "wwwroot/js/chart/chartjs/chart.min.js",
+      "wwwroot/js/lazysizes.min.js",
+      "wwwroot/js/prism/prism.min.js",
+      "wwwroot/js/clipboard/clipboard.min.js",
+      "wwwroot/js/custom-card/custom-card.js",
+      "wwwroot/js/counter/jquery.waypoints.min.js",
+      "wwwroot/js/counter/jquery.counterup.min.js",
+      "wwwroot/js/counter/counter-custom.js",
+      "wwwroot/js/chart/peity-chart/peity.jquery.js",
+      "wwwroot/js/chart/sparkline/sparkline.js",
+      "wwwroot/js/admin-customizer.js",
+      "wwwroot/js/dashboard/default.js",
+      "wwwroot/js/chat-menu.js",
+      "wwwroot/js/height-equal.js",
+      "wwwroot/js/lazysizes.min.js",
+      "wwwroot/js/admin-script.js"
+
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+]
+
