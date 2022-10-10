@@ -1,0 +1,38 @@
+﻿@model TbItems
+
+<div class="product-box">
+    <div class="img-wrapper">
+        <div class="front">
+            <a asp-controller="Items" asp-action="Details" asp-route-id="@Model.ItemId">
+                <img src="@string.Format("/Uploads/{0}", Model.ImageName)"
+                     class="img-fluid blur-up lazyload bg-img" alt="">
+            </a>
+        </div>
+        <div class="cart-info cart-wrap">
+            <a asp-controller="Items" asp-action="AddToCart" asp-route-Id="@Model.ItemId"
+               title="Add to cart">
+                <i class="ti-shopping-cart"></i>
+            </a>
+            @*<a href="javascript:void(0)" title="Add to Wishlist">
+                <i class="ti-heart" aria-hidden="true"></i>
+            </a>*@
+        @*    <a href="#"
+               data-toggle="modal" data-target="#quick-view"
+               title="Quick View">
+                <i class="ti-search"
+                   aria-hidden="true"></i>
+            </a>
+            <a href="compare.html"
+               title="Compare">
+                <i class="ti-reload"
+                   aria-hidden="true"></i>
+            </a>*@
+        </div>
+    </div>
+    <div class="details-product">
+        <a href="product-page(no-sidebar).html">
+            <h6>@Model.ItemName</h6>
+        </a>
+        <h4>@Model.SalesPrice</h4>
+    </div>
+</div>
